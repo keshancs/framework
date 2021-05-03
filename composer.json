@@ -1,0 +1,9 @@
+{
+    "name": "keshancs/framework",
+    "description": "The Mint Framework.",
+    "autoload": {
+        "psr-4": {
+            "Mint\\": "src/"
+        }
+    }
+}
