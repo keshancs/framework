@@ -1,10 +1,22 @@
 {
     "name": "keshancs/framework",
+    "type": "library",
     "description": "The Mint Framework.",
-    "license": "GPL-3.0-or-later",
+    "keywords": ["framework"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Georgijs Kļaviņš",
+            "email": "georgijs.klavins@gmail.com"
+        }
+    ],
+    "require": {
+        "twig/twig": "^3.3"
+    },
     "autoload": {
         "psr-4": {
             "Mint\\": "src/"
         }
-    }
+    },
+    "minimum-stability": "dev"
 }
